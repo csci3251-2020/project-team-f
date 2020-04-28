@@ -1,0 +1,5 @@
+{% for s in site.stu %}
+  <img src=s.image>
+  <h2>{{ s.user }} - {{ s.name }}</h2>
+  <p>{{ s.content | markdownify }}</p>
+{% endfor %}
