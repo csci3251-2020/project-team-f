@@ -20,6 +20,6 @@ Will be added soon...
 # Contributors
 {% for s in site.stu %}
   <img src="{{ s.image }}">
-  <h2>@{{ s.user }} ({{ s.name }})</h2>
+  <p>@{{ s.user }} ({{ s.name }})</p>
   <p>{{ s.content | markdownify }}</p>
 {% endfor %}
