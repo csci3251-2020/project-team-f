@@ -18,4 +18,8 @@ Hello! We are __team F__! Our team will do a total of __8 tasks__. There is a su
 Will be added soon...
 
 # Contributors
-
+{% for s in site.stu %}
+  <img src="{{ s.image }}">
+  <h2>@{{ s.user }} ({{ s.name }})</h2>
+  <p>{{ s.content | markdownify }}</p>
+{% endfor %}
