@@ -12,6 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
       - name: helloworld
         run: gcc code.c -o code; ./code
