@@ -23,3 +23,6 @@ Will be added soon...
   <p>@{{ s.user }} ({{ s.name }})</p>
   <p>{{ s.content | markdownify }}</p>
 {% endfor %}
+
+### Last Update:
+<p> {{ site.time }} </p>
