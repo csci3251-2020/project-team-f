@@ -19,7 +19,9 @@ Will be added soon...
 
 # Contributors
 {% for s in site.stu %}
-  <img src="{{ s.image }}">
-  <p>@{{ s.user }} ({{ s.name }})</p>
-  <p>{{ s.content | markdownify }}</p>
+  <p>
+   &emsp;>><img src="{{ s.image }}" height="50" width="50">
+   @{{ s.user }} ({{ s.name }})
+  </p>
+  <p>&emsp;&emsp;>>{{ s.content | markdownify }}</p>
 {% endfor %}
