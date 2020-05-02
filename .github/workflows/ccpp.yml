@@ -1,4 +1,4 @@
-name: C/C++ CI
+name:C/C++_CI_by_team_f
 
 on:
   push:
