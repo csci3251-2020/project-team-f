@@ -15,7 +15,7 @@ Hello! We are __team F__! Our team will do a total of __8 tasks__. There is a su
 
 
 # Code
-https://github.com/csci3251-2020/project-team-f/workflows/C/C++CI/badge.svg
+https://github.com/csci3251-2020/project-team-f/workflows/.github/workflows/ccpp.yml/badge.svg
 ```c
 {% include {{ code.c }} %}
 ```
