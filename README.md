@@ -26,10 +26,13 @@ https://github.com/csci3251-2020/project-team-f/workflows/.github/workflows/ccpp
 # Contributors
 {% for s in site.stu %}
   <p>
-   &emsp;>><img src="{{ s.image }}" height="50" width="50">
+   &emsp;<img src="{{ s.image }}" height="50" width="50">
    @{{ s.user }} ({{ s.name }})
   </p>
-  <p>&emsp;&emsp;>>{{ s.content | markdownify }}</p>
+  <p>
+   &emsp;&emsp;
+   {{ s.content | markdownify }}
+  </p>
 {% endfor %}
 
 ---
