@@ -15,7 +15,13 @@ Hello! We are __team F__! Our team will do a total of __8 tasks__. There is a su
 
 
 # Code
-Will be added soon...
+https://github.com/csci3251-2020/project-team-f/workflows/.github/workflows/ccpp.yml/badge.svg
+```c
+{% include {{ code.c }} %}
+```
+
+## resultant image:
+![image](https://github.com/csci3251-2020/project-team-f/blob/master/issues/task7.png)
 
 # Contributors
 {% for s in site.stu %}
