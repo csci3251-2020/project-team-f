@@ -17,19 +17,19 @@ Hello! We are __team F__! Our team will do a total of __8 tasks__. There is a su
 # Code
 https://github.com/csci3251-2020/project-team-f/workflows/.github/workflows/ccpp.yml/badge.svg
 ```c
-{% include {{ code.c }} %}
+{% include_relative code.c %}
 ```
 
 ## resultant image:
 ![image](https://github.com/csci3251-2020/project-team-f/blob/master/issues/task7.png)
 
 # Contributors
-{% for s in site.stu %}
+{% for s in site._stu %}
   <p>
-   &emsp;>><img src="{{ s.image }}" height="50" width="50">
+   &emsp;<img src="{{ s.image }}" height="50" width="50">
    @{{ s.user }} ({{ s.name }})
   </p>
-  <p>&emsp;&emsp;>>{{ s.content | markdownify }}</p>
+  <p>&emsp;&emsp;{{ s.content | markdownify }}</p>
 {% endfor %}
 
 ---
