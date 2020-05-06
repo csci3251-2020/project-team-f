@@ -29,7 +29,7 @@ Hello! We are __team F__! Our team will do a total of __8 tasks__. There is a su
    &emsp;<img src="{{ s.image }}" height="50" width="50">
    @{{ s.user }} ({{ s.name }})
   </p>
-  <p>&emsp;&emsp;{{ s.content }}</p>
+  {{ s.content }}
 {% endfor %}
 
 ---
